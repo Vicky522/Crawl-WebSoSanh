@@ -1,0 +1,27 @@
+.section__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section__row > .section-container {
+  width: 40%;
+  text-align: left;
+}
+
+.section__row > .section-container > h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.section__row > .section-image {
+  width: 40%;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=index.css.map */

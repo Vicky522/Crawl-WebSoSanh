@@ -1,0 +1,28 @@
+
+
+
+.section__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > .section-container{
+        width: 40%;
+
+        text-align: left;
+
+        & > h2 {
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+    & > .section-image{
+        width: 40%;
+        vertical-align: middle;
+    }
+}
+
+h1.title{
+    font-family: 'Source Sans Pro', sans-serif;
+}

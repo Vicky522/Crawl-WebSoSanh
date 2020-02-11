@@ -1,0 +1,72 @@
+.top-bar{
+    
+    background-color: #07c1ef;
+    &__row{
+        
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    &__title{
+        font-family: 'Abril Fatface', cursive;
+        font-size: 50px;
+    }
+
+    &__search{
+        display: flex;
+        
+       width: 50%;
+       height: auto;
+        
+        
+    }
+
+    &__search > input {
+        width: 100%;
+        border: 3px solid #00B4CC;
+        border-right: none;
+        padding: 5px;
+        height: 30px;
+        border-radius: 8px 0 0 8px;
+        outline: none;
+        color: #9DBFAF;
+    }
+
+    &__search > input:focus{
+        color: #00B4CC;
+    }
+
+    &__search >button{
+        width: 40px;
+        height: auto;
+        border: 1px solid #00B4CC;
+        background: #00B4CC;
+        text-align: center;
+        color: #fff;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    &__info{
+        background-color: black;
+        color: white;
+
+        text-align: center;
+
+        padding: 50px 15px;
+
+        h2{
+            color: #00B4CC;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+    }
+
+}
